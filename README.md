@@ -13,11 +13,10 @@ jupyter notebook에서
 !mv ./sentiment_analysis
 
 from sent_analysis import sent_analysis
-mysent = '분석할 문장'
+mysent = '7월 4주차에 벌어진 두 정당의 지지도 역전은 ‘컨벤션 효과’와도 관계가 있는 것으로 보인다. 민주당이 지난달 중순까지는 대선 경선에 대한 관심과 맞물려 지지도가 상승했으나, 민주당 경선 일정이 코로나19 여파로 늦춰진 동안 지난달 말 야권 유력 대선 주자 윤석열 전 검찰총장이 국민의힘에 전격 입당하면서 지지도가 함께 상승한 것으로 보인다.
+
 _sent = sent_analysis(mysent)
 _sent.count_pos()
 
 >>> {'positive': 5, 'neutral': 0, 'negative': 1}
 ```
-
-분석결과
