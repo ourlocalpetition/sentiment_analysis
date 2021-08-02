@@ -4,7 +4,14 @@
 
 ___
 
-사용법:
+### dependency
+```
+pandas==1.1.4
+konlpy==0.5.2
+```
+
+
+### 사용법
 
 jupyter notebook에서
 
