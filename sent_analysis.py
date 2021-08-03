@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 from konlpy.tag import Kkma
 
-class sent_analysis:
+class SentAnalysis:
     
     def __init__(self, sentence, n_gram=1, dictionary='default'):
         
