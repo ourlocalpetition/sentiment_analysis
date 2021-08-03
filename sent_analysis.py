@@ -18,7 +18,7 @@ class sent_analysis:
         dictionary: lexicon
         n_gram: n_gram, default=1
         '''
-        assert n_gram>0 , 'n_gram should be positive integer'
+        assert n_gram>0 and type(n_gram)==int, 'n_gram should be positive integer'
         
         kkma = Kkma()
         
