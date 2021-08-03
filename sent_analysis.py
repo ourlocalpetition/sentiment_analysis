@@ -39,9 +39,9 @@ class sent_analysis:
         for i,a in enumerate(self.pos_set):
             temp = self.dictionary[self.dictionary['ngram']==a]
             try:
-                positive += int(temp['POS'].values)
-                neutral += int(temp['NEUT'].values)
-                negative += int(temp['NEG'].values)
+                positive += float(temp['POS'].values)
+                neutral += float(temp['NEUT'].values)
+                negative += float(temp['NEG'].values)
             except:
                 pass
 
